@@ -4,8 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webs links</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-  
+<body class="bg-gradient-to-b from-red-200 to-pink-400 flex flex-col max-w-xl mx-auto border-black min-h-dvh">
+
+  <header class="text-stone-950">
+    <h1>All links here</h1>
+    <p>Enlaces de paginas web</p>
+
+    <section class="flex gap-4 justify-center">
+    <a class="bg-pink-400 p-2 flex size-12 items-center justify-center rounded-xl hover:scale-105 transition-transform" href="https://instagram.com" target="_blank" aria-label="Instagram" title="Ir a Instagram">
+      <svg width="28" height="28">
+        <use xlink:href="./assets/sprites.svg#instagram" />
+      </svg>
+    </a>
+    <a class="bg-sky-50 p-2 flex size-12 items-center justify-center rounded-xl hover:scale-105 transition-transform" href="https://linkedin.com" target="_blank" aria-label="Linkedin" title="Ir a Linkedin">
+      <svg width="28" height="28">
+        <use xlink:href="./assets/sprites.svg#linkedin" />
+      </svg>
+    </a>
+    <a class="bg-zinc-900 p-2 flex size-12 items-center justify-center rounded-xl hover:scale-105 transition-transform" href="https://instagram.com" target="_blank" aria-label="Github" title="Ir a Github">
+      <svg width="28" height="28">
+        <use xlink:href="./assets/sprites.svg#github" />
+      </svg>
+    </a>
+  </section>
+  </header>
+
+  <main>
+    Aqui va la informacion
+  </main>
+
+  <footer class="mt-auto">
+    Desarrollado por alguien
+  </footer>
 </body>
 </html>
