@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
+
+
+@theme {
+  /* Colors */
+  --color-primary-light: #fff
+
+  /* Breakpoints */
+  --breakpoint-xs: 350px
+}
+
+.social-button {
+  @apply p-2 flex size-12 items-center justify-center rounded-xl hover:scale-105 transition-transform sm:size-16;
+}
