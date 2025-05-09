@@ -9,7 +9,7 @@
 <body class="bg-gradient-to-b from-red-200 to-pink-400 flex flex-col max-w-xl mx-auto min-h-dvh">
 
   <header class="text-stone-950">
-   <img src="./assets/pepe.jpg" alt="Simplemente pepe Villuela" class="h-[450px] object-cover mask-radial-at-center mask-radial-from-55% mask-radial-to-85%">
+   <img src="./assets/pepe.jpg" alt="Simplemente pepe Villuela" class="h-[450px] object-cover mask-radial-at-center mask-radial-from-55% mask-radial-to-85% animate-blurred-fade-in">
 
    <header class="flex flex-col justify-center items-center mb-8 -mt-4">
     <span class="text-purple-800 text- px-3 py-1 border rounded-full flex items-center justify-center shadow-sm bg-pink-300/90 cursor-pointer z-10">
@@ -25,26 +25,71 @@
    </header>
 
     <section class="flex gap-4 justify-center">
-    <a class="bg-pink-400 p-2 flex size-12 items-center justify-center rounded-xl hover:scale-105 transition-transform" href="https://instagram.com" target="_blank" aria-label="Instagram" title="Ir a Instagram">
+    <a class="bg-pink-400 social-button" href="https://instagram.com" target="_blank" aria-label="Instagram" title="Ir a Instagram">
       <svg width="28" height="28">
         <use xlink:href="./assets/sprites.svg#instagram" />
       </svg>
     </a>
-    <a class="bg-sky-50 p-2 flex size-12 items-center justify-center rounded-xl hover:scale-105 transition-transform" href="https://linkedin.com" target="_blank" aria-label="Linkedin" title="Ir a Linkedin">
+    <a class="bg-sky-50 social-button" href="https://linkedin.com" target="_blank" aria-label="Linkedin" title="Ir a Linkedin">
       <svg width="28" height="28">
         <use xlink:href="./assets/sprites.svg#linkedin" />
       </svg>
     </a>
-    <a class="bg-zinc-900 p-2 flex size-12 items-center justify-center rounded-xl hover:scale-105 transition-transform" href="https://instagram.com" target="_blank" aria-label="Github" title="Ir a Github">
+    <a class="bg-zinc-900 social-button" href="https://instagram.com" target="_blank" aria-label="Github" title="Ir a Github">
       <svg width="28" height="28">
         <use xlink:href="./assets/sprites.svg#github" />
       </svg>
     </a>
   </section>
+
+  <p class="text-gray-800 text-center text-balance mt-4 text-sm px-2">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum atque est eius magni quaerat debitis. Voluptatem tempore explicabo.
+  </p>
+
   </header>
 
-  <main>
-    Aqui va la informacion
+  <main class="pt-4 px-4 pb-16">
+    <div class="grid grid-cols-3 grid-rows-2 gap-2 w-full">
+      <a href="https://google.com" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-white to-red-600 border-red-800 flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-2 p-7 min-h-[180px] group">
+        <span class="absolute bottom-2 left-2 font-bold text-2xl">Youtube</span>
+
+        <svg width="100" height="100" class="absolute -right-6 -bottom-4 -rotate-6 size-24 group-hover:-rotate-12 transition-transform">
+          <use xlink:href="./assets/sprites.svg#youtube"></use>
+        </svg>
+
+        <span class="absolute top-2 left-2 text-xs border rounded-xl px-2 py-0.5">Videos de Youtube</span>
+      </a>
+
+      <a href="https://google.com" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-zinc-500 to-slate-900 border-black flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-1 p-7 min-h-[180px] group">
+        <span class="absolute bottom-2 left-2 font-bold text-2xl text-zinc-200">Twitter</span>
+
+        <svg width="100" height="100" class="absolute -right-6 -bottom-4 -rotate-6 size-24 group-hover:-rotate-12 transition-transform">
+          <use xlink:href="./assets/sprites.svg#x"></use>
+        </svg>
+
+        <span class="absolute top-2 left-2 text-xs border rounded-xl px-2 py-0.5 text-zinc-200">Videos de Youtube</span>
+      </a>
+
+      <a href="https://google.com" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-blue-50 to-sky-500 border-black flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-1 p-7 min-h-[180px] group">
+        <span class="absolute bottom-2 left-2 font-bold text-2xl">Curriculum</span>
+
+        <svg width="100" height="100" class="absolute -right-6 -bottom-4 -rotate-6 size-24 group-hover:-rotate-12 transition-transform">
+          <use xlink:href="./assets/sprites.svg#linkedin"></use>
+        </svg>
+
+        <span class="absolute top-2 left-2 text-xs border rounded-xl px-2 py-0.5">Videos de Youtube</span>
+      </a>
+
+      <a href="https://google.com" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-white to-purple-700 border-purple-900 flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-2 p-7 min-h-[180px] group">
+        <span class="absolute bottom-2 left-2 font-bold text-2xl">Twitch</span>
+
+        <svg width="100" height="100" class="absolute -right-6 -bottom-4 -rotate-6 size-24 group-hover:-rotate-12 transition-transform">
+          <use xlink:href="./assets/sprites.svg#twitch"></use>
+        </svg>
+
+        <span class="absolute top-2 left-2 text-xs border rounded-xl px-2 py-0.5">Videos de Youtube</span>
+      </a>
+    </div>
   </main>
 
   <footer class="mt-auto">
